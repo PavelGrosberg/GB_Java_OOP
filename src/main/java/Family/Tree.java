@@ -2,12 +2,28 @@ package Family;
 
 public abstract class Tree {
     String relation;
-    String name;
-    Integer age;
+    private String name;
+    private Integer age;
 
     public Tree(String relation, String name, Integer age) {
         this.relation = relation;
         this.name = name;
+        this.age = age;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public Integer getAge() {
+        return age;
+    }
+
+    public void setAge(Integer age) {
         this.age = age;
     }
 
@@ -21,4 +37,8 @@ public abstract class Tree {
     }
 
     public abstract void greeting();
+
+    public void print() {
+        System.out.printf("%s (%d) \n", name, age);
+    }
 }
