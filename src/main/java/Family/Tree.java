@@ -38,7 +38,10 @@ public abstract class Tree {
 
     public abstract void greeting();
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 1dada5fbeb5f55602763765a1c7bd6488c73a886
     public void print() {
         System.out.printf("%s (%d) \n", name, age);
     }
