@@ -12,5 +12,8 @@ public class TreeMain {
         mom.greeting();
         mom.print();
         Mother.howOld();
+        Diff diff = new Diff<>(mom.getAge(), son.getAge());
+        System.out.println("У мамы с сыном разница в " + diff.getDiff() + " лет");
+
     }
 }
