@@ -1,8 +1,8 @@
 package Phone;
 
 import java.util.Objects;
-public class Phone {
 
+public class Phone {
     private String nameFactory;
     private String model;
     private double sizeDisplay;
@@ -10,8 +10,7 @@ public class Phone {
     private int akb;
     private double price;
 
-    public Phone() {
-    }
+    public Phone() {}
 
     public Phone(String nameFactory, String model, double sizeDisplay, int akb, String typeOS, double price) {
         this.nameFactory = nameFactory;
@@ -70,6 +69,4 @@ public class Phone {
                 ", price=" + price +
                 '}';
     }
-
-
 }
