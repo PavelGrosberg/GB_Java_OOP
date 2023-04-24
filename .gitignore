@@ -2,6 +2,10 @@
 /shelf/
 /.idea/
 /src/main/resources/
+/src/main/.idea/
+/src/main/main.iml
+/src/main/python/.idea
+/src/main/python/__pycache__
 /src/test/java/
 /workspace.xml
 #/pom.xml
